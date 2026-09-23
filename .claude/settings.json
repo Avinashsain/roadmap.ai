@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker build *)",
+      "Bash(turso --version)",
+      "Bash(vercel --version)",
+      "Bash(turso auth *)",
+      "Bash(vercel whoami *)"
+    ]
+  }
+}
